@@ -13,16 +13,20 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
-		String name = in.nextLine();
-		System.out.println("Give me a number: ");
+		System.out.println("Enter a verb ending in ing");
+		String verb1 = in.nextLine();
+		System.out.println("Enter a person's name ");
+		String person = in.nextLine();
+		System.out.println("Enter a fruit: ");
+		String fruit = in.nextLine();
+		System.out.println("Enter a number");
 		int num1 = in.nextInt();
-		System.out.println("Give me a place: ");
-		//flush 
-		in.nextLine();
-		String place = in.nextLine();
-		System.out.println("One day, "+name+" wrote "+num1+" Mad Libs in "+place+"!");
+		
+		
+		
+		
+		//STORY
+		System.out.println("One day while "+verb1+" to class, "+person+" tripped on a "+fruit+"peel and fell into a bicycle rack. When he got up, he noticed he broke "+num1+" teeth.");
 
 	}
 
