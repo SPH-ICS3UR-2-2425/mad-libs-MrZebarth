@@ -13,21 +13,23 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter a verb ending in ing");
-		String verb1 = in.nextLine();
-		System.out.println("Enter a person's name ");
-		String person = in.nextLine();
-		System.out.println("Enter a fruit: ");
-		String fruit = in.nextLine();
-		System.out.println("Enter a number");
-		int num1 = in.nextInt();
+		System.out.println("Give me a day of the week: ");
+		String dayOfWeek = in.nextLine();
+		System.out.println("Give me a sport");
+		String sport = in.nextLine();
+		System.out.println("Give me a number: ");
+		int score = in.nextInt();
+		System.out.println("Give me a decimal number: ");
+		double decNumber = in.nextDouble();
+		System.out.println("Give me a name: ");
+		in.nextLine();
+		String person1 = in.nextLine();
+		System.out.println("Give me another name: ");
+		String person2 = in.nextLine();
 		
-		
-		
-		
-		//STORY
-		System.out.println("One day while "+verb1+" to class, "+person+" tripped on a "+fruit+"peel and fell into a bicycle rack. When he got up, he noticed he broke "+num1+" teeth.");
+		System.out.println("On "+dayOfWeek+", "+person1+" and "+person2+" were playing "+sport+" when a seagull crashed the game and scored "+score+" points. That broke a record that was "+decNumber+" years old.");
 
+		in.close();
 	}
 
 }
