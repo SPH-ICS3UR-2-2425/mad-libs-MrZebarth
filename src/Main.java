@@ -27,6 +27,7 @@ public class Main {
 		System.out.println("Give me another name: ");
 		String person2 = in.nextLine();
 		
+		
 		System.out.println("On "+dayOfWeek+", "+person1+" and "+person2+" were playing "+sport+" when a seagull crashed the game and scored "+score+" points. That broke a record that was "+decNumber+" years old.");
 
 		in.close();
